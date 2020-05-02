@@ -82,7 +82,7 @@ button, button:focus, button.active {
 }
 
 .exim-navbar .navbar-nav .nav-item.active>a {
-  color: #FF6600;
+  color: #83affe;
   font-weight: 600;
 }
 
@@ -101,7 +101,7 @@ button, button:focus, button.active {
 }
 
 .exim-navbar .dropdown-menu a:hover, .exim-navbar .dropdown-menu a.active-menu {
-  color: #FF6600;
+  color: #83affe;
   background-color: white;
 }
 
@@ -111,7 +111,7 @@ button, button:focus, button.active {
 
 .navbar-toggler i {
   font-size: 2.2rem;
-  color: #FF6600;
+  color: #83affe;
 }
 
 .navbar-toggler[aria-expanded="false"] i:last-child {
@@ -129,7 +129,7 @@ button, button:focus, button.active {
 }
 
 .exim-hero-content {
-  width: 35%;
+  width: 50%;
   padding-top: 5px;
 }
 
@@ -247,7 +247,7 @@ h5, h6 {
 }
 
 .exim-services {
-  margin-top: 16rem;
+  margin-top: 6rem;
 }
 
 .exim-services-card {
@@ -788,7 +788,7 @@ h4 {
   }
   .exim-hero-content {
     width: 40%;
-    padding-top: 8rem;
+    padding-top: 50px;
   }
   .exim-hero-content h1 {
     font-size: 2.5rem;
@@ -849,7 +849,7 @@ h4 {
   }
   .exim-hero-image img {
     opacity: 1;
-    margin-top: 72px;
+    margin-top: -55px;
     right: 0;
   }
   .exim-body h1 {
