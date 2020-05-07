@@ -1,4 +1,7 @@
 @import url('../../rsms.me/inter/inter.css');
+@import url('main.css');
+@import url('util.css');
+
 html, body {
   font-family: 'Inter', sans-serif;
 }
@@ -13,7 +16,7 @@ body {
   overflow-x: hidden;
   letter-spacing: -0.02rem;
   color: black;
-  border-bottom: 0.5rem solid #FF6600;
+  border-bottom: 0.5rem solid lightcoral;
 }
 
 p {
@@ -41,6 +44,18 @@ button, button:focus, button.active {
   background: rgba(255, 255, 255, 0);
   box-shadow: unset;
 }
+
+/* .exim-navbar {
+  padding: 1rem;
+  position: fixed;
+  z-index: 9999;
+  top: 0rem;
+  right: 0;
+  left: 0;
+  padding: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.15);
+} */
 
 .exim-navbar.full-nav {
   right: 0;
@@ -82,7 +97,7 @@ button, button:focus, button.active {
 }
 
 .exim-navbar .navbar-nav .nav-item.active>a {
-  color: #FF6600;
+  color: lightcoral;
   font-weight: 600;
 }
 
@@ -101,7 +116,7 @@ button, button:focus, button.active {
 }
 
 .exim-navbar .dropdown-menu a:hover, .exim-navbar .dropdown-menu a.active-menu {
-  color: #FF6600;
+  color: lightcoral;
   background-color: white;
 }
 
@@ -111,7 +126,7 @@ button, button:focus, button.active {
 
 .navbar-toggler i {
   font-size: 2.2rem;
-  color: #FF6600;
+  color: lightcoral;
 }
 
 .navbar-toggler[aria-expanded="false"] i:last-child {
@@ -129,7 +144,7 @@ button, button:focus, button.active {
 }
 
 .exim-hero-content {
-  width: 35%;
+  width: 50%;
   padding-top: 5rem;
 }
 
@@ -148,60 +163,11 @@ h5, h6 {
 .exim-hero-image img {
   margin-top: -20rem;
   position: absolute;
-  /* z-index: -1; */
-  right: -20%;
-  margin-top: -40%;
-}
-
-/* 
-
-.exim-hero-image::before {
-
-  content: "";
-
-  position: absolute;
-
-  height: 18rem;
-
-  width: 18rem;
-
-  right: 28%;
-
-  background: #FF6600;
-
-  box-shadow: 0px 50px 80px rgb(255, 102, 0, 0.5);
-
-  border-radius: 1000px;
-
   z-index: -1;
-
-  top: 2rem;
-
+  right: -12%;
+  margin-top: -30%;
 }
 
-
-
-.exim-hero-image::after {
-
-  content: "";
-
-  position: absolute;
-
-  height: 14rem;
-
-  width: 14rem;
-
-  right: -10%;
-
-  background: #024B7E;
-
-  box-shadow: 0px 50px 80px rgba(2, 75, 126, 0.5);
-
-  border-radius: 1000px;
-
-  top: 24rem;
-
-} */
 
 .exim-hero {
   position: relative;
@@ -323,7 +289,7 @@ h5, h6 {
   position: absolute;
   height: 8rem;
   width: 8rem;
-  background-color: #FF6600;
+  background-color: lightcoral;
   right: -4.5rem;
   z-index: -1;
   border-radius: 1000px;
@@ -371,7 +337,7 @@ h5, h6 {
 }
 
 .exim-partner .exim-hero-blue-panel i {
-  color: #FF6600;
+  color: lightcoral;
 }
 
 .form-control {
@@ -392,7 +358,7 @@ h5, h6 {
 }
 
 .btn-exim {
-  background-color: #FF6600;
+  background-color: #82afff;
   padding: 0.6rem 1.6rem;
   border: 0;
   border-radius: 4px;
@@ -402,7 +368,7 @@ h5, h6 {
 }
 
 .btn-exim:hover, .btn-exim:focus {
-  background-color: #ff8433;
+  background-color: lightcoral;
   color: white;
 }
 
@@ -573,7 +539,7 @@ h4 {
 }
 
 .exim-body-about h4 {
-  color: #ff6600;
+  color: lightcoral;
 }
 
 .about-content {
@@ -658,7 +624,7 @@ h4 {
 
 .go-back, .go-back:hover {
   margin-top: 2rem;
-  color: #ff6600;
+  color: lightcoral;
   text-decoration: none;
   font-weight: 600;
 }
@@ -668,7 +634,7 @@ h4 {
 }
 
 .exim-body-carrer h4 {
-  color: #ff6600;
+  color: lightcoral;
 }
 
 .job-list-wrap {
@@ -688,7 +654,7 @@ h4 {
 }
 
 .job-list h4 a {
-  color: #ff6600;
+  color: lightcoral;
 }
 
 .process-design {
@@ -966,7 +932,7 @@ h4 {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FF6600;
+  color: lightcoral;
   top: 0;
   left: 2rem;
   font-size: 3rem;
