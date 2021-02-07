@@ -371,7 +371,7 @@ mark,
     margin-right: 0.5rem; }
 
 .initialism {
-  font-size: 90%;
+  font-size: 100%;
   text-transform: uppercase; }
 
 .blockquote {
@@ -8367,7 +8367,8 @@ h1, h2, h3, h4, h5,
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
           width: 50%;
-          position: relative; }
+          position: relative; 
+          overflow-y: scroll;}
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               position: absolute;
