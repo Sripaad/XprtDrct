@@ -4722,7 +4722,7 @@ a.close.disabled {
   top: -9999px;
   width: 50px;
   height: 50px;
-  overflow: scroll; }
+  overflow: hidden; }
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -8368,7 +8368,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
           width: 50%;
           position: relative; 
-          overflow-y: scroll;}
+          overflow-y: hidden;}
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               position: absolute;
